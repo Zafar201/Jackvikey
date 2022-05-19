@@ -1646,3 +1646,38 @@ input:required {
     border-radius: 10px; }
 
 /*# sourceMappingURL=style.css.map */
+.iframe-container{
+  position: relative;
+  width: 100%;
+  /* padding-bottom: 115.25%;  */
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  padding-right: 20px;
+  /* height: 100%; */
+}
+.yt{
+  margin-top:40px;
+}
+
+@media only screen and (min-width: 767px) {
+  .iframe-container{
+    padding-bottom: 35.25%; 
+  }
+
+}
+
+
+@media only screen and (max-width: 767px){
+.iframe-container {
+  position: relative;
+  width: 94%;
+  padding-bottom: 92.25%;
+  margin-left: 18px;
+}
+
+}
